@@ -1,0 +1,29 @@
+{
+  "name": "simple-http-server",
+  "version": "1.0.0",
+  "description": "A simple HTTP server built with TypeScript and Node.js",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "typescript",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.16",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "express": "^4.18.0"
+  }
+}
