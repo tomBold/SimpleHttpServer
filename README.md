@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/tomBold/SimpleHttpServer/workflows/CI/badge.svg)](https://github.com/tomBold/SimpleHttpServer/actions/workflows/ci.yml)
 [![Tests](https://github.com/tomBold/SimpleHttpServer/workflows/CI/badge.svg?label=tests)](https://github.com/tomBold/SimpleHttpServer/actions/workflows/ci.yml)
-[![Coverage](https://codecov.io/gh/tomBold/SimpleHttpServer/branch/main/graph/badge.svg)](https://codecov.io/gh/tomBold/SimpleHttpServer)
+[![Coverage](https://img.shields.io/badge/coverage-59%25-orange.svg)](https://github.com/tomBold/SimpleHttpServer/actions/workflows/ci.yml)
 [![Build Status](https://github.com/tomBold/SimpleHttpServer/workflows/CI/badge.svg?label=build)](https://github.com/tomBold/SimpleHttpServer/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x%20%7C%2020.x-green.svg)](https://nodejs.org/)
