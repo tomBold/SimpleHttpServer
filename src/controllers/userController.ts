@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { db } from '../database';
-import { ApiResponse, User } from '../types';
+import { User } from '../types';
 
 export class UserController {
   getAllUsers = async (req: Request, res: Response, next: NextFunction): Promise<void> => {

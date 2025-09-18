@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { db } from '../database';
-import { ApiResponse, Task } from '../types';
+import { Task } from '../types';
 
 export class TaskController {
   getAllTasks = async (req: Request, res: Response, next: NextFunction): Promise<void> => {

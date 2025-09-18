@@ -44,7 +44,7 @@ describe('User API', () => {
         .expect(400);
 
       expect(response.body.success).toBe(false);
-      expect(response.body.error).toContain('validation');
+      expect(response.body.error).toContain('Name must be at least 2 characters');
     });
   });
 

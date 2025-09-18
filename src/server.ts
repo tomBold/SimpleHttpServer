@@ -46,11 +46,14 @@ app.use(errorHandler);
 
 db.seedData();
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`📍 Health: http://localhost:${PORT}/health`);
-  console.log(`📍 Users: http://localhost:${PORT}/api/users`);
-  console.log(`📍 Tasks: http://localhost:${PORT}/api/tasks`);
-});
+// Only start the server if not in test mode
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on port ${PORT}`);
+    console.log(`📍 Health: http://localhost:${PORT}/health`);
+    console.log(`📍 Users: http://localhost:${PORT}/api/users`);
+    console.log(`📍 Tasks: http://localhost:${PORT}/api/tasks`);
+  });
+}
 
 export default app;
