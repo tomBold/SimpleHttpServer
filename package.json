@@ -12,6 +12,9 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:report": "node scripts/test-report.js",
+    "test:ci": "node scripts/test-ci.js",
+    "check:ci": "node scripts/check-ci-readiness.js",
+    "check:gitignore": "node scripts/check-gitignore.js",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix"
   },
@@ -29,6 +32,7 @@
     "@types/supertest": "^6.0.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "audit-ci": "^6.0.0",
     "eslint": "^8.45.0",
     "jest": "^29.6.0",
     "supertest": "^6.3.3",

@@ -1,8 +1,9 @@
 # 🚀 Simple HTTP Server
 
-[![CI](https://github.com/tombo/SimpleHttpServer/workflows/CI/badge.svg)](https://github.com/tombo/SimpleHttpServer/actions)
+[![CI](https://github.com/tombo/SimpleHttpServer/actions/workflows/ci.yml/badge.svg)](https://github.com/tombo/SimpleHttpServer/actions)
 [![Tests](https://img.shields.io/badge/tests-9%20passing-brightgreen.svg)](https://github.com/tombo/SimpleHttpServer/actions)
 [![Coverage](https://img.shields.io/badge/coverage-59%25-orange.svg)](https://github.com/tombo/SimpleHttpServer/actions)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/tombo/SimpleHttpServer/actions)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x%20%7C%2020.x-green.svg)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-4.18+-black.svg)](https://expressjs.com/)
