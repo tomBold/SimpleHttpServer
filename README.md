@@ -15,14 +15,14 @@ A modern, well-tested TypeScript + Node.js REST API built with Express, featurin
 
 ## ✨ Features
 
-- 🔧 **TypeScript** - Full type safety and modern JavaScript features
-- 🧪 **Comprehensive Testing** - 9 passing tests with Jest and Supertest
-- 🔍 **Code Quality** - ESLint configuration for consistent code style
-- 🚀 **CI/CD Ready** - GitHub Actions workflow for automated testing
-- 📦 **Docker Support** - Containerized deployment with Docker
-- 🛡️ **Security** - Automated security audits and dependency checks
-- 📊 **Health Monitoring** - Built-in health check endpoints
-- 🎯 **RESTful API** - Clean, intuitive API design
+- **TypeScript** - Full type safety and modern JavaScript features
+- **Comprehensive Testing** - 9 passing tests with Jest and Supertest
+- **Code Quality** - ESLint configuration for consistent code style
+- **CI/CD Ready** - GitHub Actions workflow for automated testing
+- **Docker Support** - Containerized deployment with Docker
+- **Security** - Automated security audits and dependency checks
+- **Health Monitoring** - Built-in health check endpoints
+- **RESTful API** - Clean, intuitive API design
 
 ## 🚀 Quick Start
 
